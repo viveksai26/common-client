@@ -7,6 +7,6 @@ const { isAuthorized } = require('../auth/auth');
 
 /* GET home page. */
 router.use('/dashboard', dashboardRouter);
-router.use('/subscription', isAuthorized, subscriptionRouter);
+router.use('/subscription', subscriptionRouter);
 
 module.exports = router;
