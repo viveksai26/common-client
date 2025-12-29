@@ -9,7 +9,7 @@ try {
   const mongoose = require('mongoose');
 
   var uri = process.env.MONGO_URL || configuration?.MONGO_URL;
-  console.log('Mongo URI exists:', !!process.env.MONGO_URI);
+  console.log('Mongo URI exists:', !!process.env.MONGO_URL);
 
 
   mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
