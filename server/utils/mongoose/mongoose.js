@@ -10,6 +10,8 @@ try {
 
   var uri = process.env.MONGO_URL || configuration?.MONGO_URL;
   console.log('Mongo URI exists:', !!process.env.MONGO_URL);
+  console.log(process.env.MONGO_URL);
+  
 
 
   mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
