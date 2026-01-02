@@ -9,6 +9,7 @@ app.use(cors());
 /**
  * Routes
  */
+
 var indexRouter = require('./server/routes/index.router');
 
 var createError = require('http-errors');
