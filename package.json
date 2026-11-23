@@ -25,6 +25,7 @@
       "pre-commit": ""
     }
   },
+  "engines": { "node": "18.x" },
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.1.6",
